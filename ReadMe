@@ -13,18 +13,36 @@
 
 3. Explain how databases like MongoDB and redis would be classified in the NoSQL world.
 
+    MongoDB is classified as document based databases. It uses BSON to store data. Redis is a key - value store and it
+    stores key - value pairs. Data is accessed really quickly.
+
 4. Explain the reasons to add a layer like mongoose to MongoDB.
 
+    Mongoose is modeling tool that is similar to ORM. It is schema based solution for modeling your app.
+    It could be more relevant for developers who come from SQL database types.
+
 5. Explain using examples, the strategy for querying MongoDB(CRUD operations).
+    See CRUD.js
 
 6. Demonstrate, using a REST-API, how to perform all CRUD operations on a MongoDB.
 
+    See RestCrud.js
+
+
 7. Explain the benefits from using Mongoose, and provide an example involving all CRUD operations
+
+    See RestCrud.js
 
 8. Explain how redis "fits" into the NoSQL world, and provide an example of how to use it.
 
+    Redis provides a fast way to access keys and values of data. It is excellent for speedy data access because it uses
+    memory to store data. We have used it for storing sessions.
+
 9. Explain, using a relevant example, how redis (or a similar) can increase scalability (drastic) for a server using
-   server side sessions
+   server side sessions.
+
+   By storing the values in memory on the client PC we can keep session information up to date and access it instantly.
+   We can also persist the data if needed. A timer can be applied so that the information is deleted after a certain time.
 
 10.Explain, using a relevant example, a full MEAN application including relevant test cases to test the REST-API
    (not on the production database)
