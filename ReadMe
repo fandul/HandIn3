@@ -1,0 +1,30 @@
+1. Explain generally , what is meant by a NoSQL Database.
+    NoSQL databases are more scalable and provide better performance compared to Relational Databases.
+    As the name suggests it does not use SQL queries. It is more popular in big data and real-time web applications.
+    It is very flexible and schema-less data model.
+
+2. Explain Pros & Cons of using No SQL.
+
+    Pros                                                                        Cons
+    * are more scalable and provide superior performance        * has less support then RDBMS
+    * can handle Big data better than RDBMS                     * requires lot of skill to install and effort to maintain
+    * cheaper than RDBMS                                        * Expertise: more RDMBS experts then NoSQl
+    * has more flexible data models                             * relatively new compared to RDBMS
+
+3. Explain how databases like MongoDB and redis would be classified in the NoSQL world.
+
+4. Explain the reasons to add a layer like mongoose to MongoDB.
+
+5. Explain using examples, the strategy for querying MongoDB(CRUD operations).
+
+6. Demonstrate, using a REST-API, how to perform all CRUD operations on a MongoDB.
+
+7. Explain the benefits from using Mongoose, and provide an example involving all CRUD operations
+
+8. Explain how redis "fits" into the NoSQL world, and provide an example of how to use it.
+
+9. Explain, using a relevant example, how redis (or a similar) can increase scalability (drastic) for a server using
+   server side sessions
+
+10.Explain, using a relevant example, a full MEAN application including relevant test cases to test the REST-API
+   (not on the production database)
